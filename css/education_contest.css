@@ -1,0 +1,250 @@
+header {
+    width: 100%;
+    height: 235px;
+    margin-top: 0px;
+    background-color: bisque;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.material-icons {
+    color: black;
+    font-size: 32px;
+    cursor: pointer;
+    float: right;
+    margin: 10px;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    margin-top: 0px;
+    background-color: blue;
+}
+
+/* Common */
+b,h1,h2,h3,h4,h5,h6,th,dt, strong {
+	/* font-family:'noto-medium', dotum, Arial, sans-serif; */
+    box-sizing: border-box;
+}
+body,p,div,ul,li,dl,dd,ol,fieldset,textarea,input,select,table,td,address,cite,a,em,span {
+	/* font-family:'noto-light', dotum, Arial, sans-serif; */
+    box-sizing: border-box;
+}
+
+b, strong {
+    font-weight: 700;
+}
+
+/* Contents */
+.contents_area {
+    padding: 60px 0;
+}
+
+.contents_area .inner {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#contents {
+    width: 900px;
+    margin-left: 300px;
+}
+
+h1.title {
+    margin-bottom: 40px;
+    font-size: 40px;
+    color: #3b3c40;
+    line-height: 45px;
+}
+
+#contentsEditHtml {
+    height: 100%;
+    width: 100%;
+    table-layout: fixed;
+    position: relative;
+    line-height: 2;
+}
+
+#searchWrapper {
+    margin: 0;
+}
+
+.fnDiv {
+    position: relative;
+}
+
+.fnDiv.artclSearch {
+    height: auto;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.fnDiv .fnLeft {
+    line-height: 38px;
+    float: left;
+}
+
+.fnDiv .fnRight {
+    position: relative;
+    float: right;
+}
+
+.fnDiv .fnSearch fieldset {
+    float: right;
+    position: relative;
+}
+
+.fnDiv .fnSearch fieldset select {
+    height: 38px !important;
+    line-height: 38px;
+    color: #666;
+    margin-right: 0.5em;
+    float: left;
+    border: 1px #ccc solid;
+}
+
+.fnDiv .fnSearch fieldset input[type="text"] {
+    height: 38px;
+    width: 150px;
+    padding: 0;
+    line-height: 38px;
+    text-indent: 10px;
+    color: #666;
+    float: left;
+    border-width: 1px;
+    border-color: #cccccc;
+    border-style: solid;
+    border-radius: 0;
+
+}
+
+.fnSearch fieldset .fnSubmit {
+    line-height: 28px;
+}
+
+.fnDiv .fnSearch fieldset .fnSubmit input {
+    width: 38px;
+    height: 38px;
+    float: left;
+    text-indent: -5000px;
+    border: 0;
+    border-radius: 0 3px 3px 0;
+    margin-right: 0;
+    background: #4d4b4a no-repeat 50% 50%;
+}
+
+.artclTable {
+    width: 100%;
+    table-layout: fixed;
+    position: relative;
+}
+
+.artclTable tr {
+    border-top: 1px solid #eaeaea;
+}
+
+.artclTable tbody {
+    border-top: 2px solid #4c5156;
+    border-bottom: 1px solid #4c5156;
+}
+
+.artclTable tr {
+    border-top: 1px solid #eaeaea;
+}
+
+.artclTable tr td._artclTdNum {
+    font-size: 15px;
+    border-width: 0;
+    text-align: center;
+    width: 80px;
+    line-height: 2;
+}
+
+ td._artclTdNum ._artclNotice {
+    /*background-color: #4c5156;
+    display: block;
+    margin: auto;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 100px;
+    overflow: hidden;
+    background-position: 9px -326px;
+    background-repeat: no-repeat;
+    border: 0;
+    text-align: center;
+    position: relative;*/
+    display: block;
+    margin: auto;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+}
+
+.artclTable td {
+    border-width: 0;
+    text-align: center;
+    width: 700px;
+}
+
+.artclTable tr td .artclLinkView {
+    position: relative;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 8px 20px 3px 20px;
+    color: #666;
+}
+
+.artclTable tr td._artclTdTitle strong {
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.artclTable tr td .artclLinkView .row-list li {
+    padding-left: 0;
+    position: relative;
+    /* float: left; */
+    display: inline-block;
+    color: #999;
+    font-size: 14px;
+    padding: 10px;
+    margin: -10px 0 0 0;
+}
+
+.artclTable tr td .artclLinkView .row-list li:first-child {
+    padding-left: 0;
+}
+
+.artclTable tr td .artclLinkView .row-list li:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 17px;
+    width: 1px;
+    height: 15px;
+    background-color: #999;
+}
+
+.artclTable tr td._artclTdRdate {
+    color: #999;
+    font-size: 16px;
+    padding: 0 20px;
+    border-width: 0;
+    text-align: center;
+    width: 120px;
+}
+
+.artclLinkView > a {
+    text-decoration: none;
+    color: #666;
+}
+
+.artclLinkView > a:hover {
+    color: #664c9a !important;
+}

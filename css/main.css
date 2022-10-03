@@ -1,0 +1,137 @@
+header {
+    width: 100%;
+    height: 132px;
+    margin-top: 0px;
+    align-items: center;
+}
+
+.fnctWrap {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    /* background-color: rgba(0, 0, 0, 0); */
+    position: relative;
+    line-height: 2;
+}
+
+.top {
+    width: 100%;
+    height: 40px;
+}
+
+.inner {
+    width:1200px;
+    height: 100%;
+    margin: 0 160px;
+    list-style: none;
+    font-size: 12px;
+    line-height: 2;
+    float:left;
+}
+
+.btn_direct {
+    width: 330px;
+    height: 40px;
+}
+
+.ico_arrow{
+    height: 40px;
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+#globalUl {
+    width: 107px;
+    height:40px;
+    float: left;
+    margin-left: 750px;
+}
+
+ul {
+    border: 0;
+    float: left;
+}
+
+li {
+    border: 0;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header_bg {
+    width: 100%;
+    height: 91px;
+    background-color: white;
+}
+
+.gnb_bg {
+    height: 91px;
+}
+
+.logo {
+    width: 300px;
+    float: left;
+}
+
+.gnb_list_wrap {
+    width: 900px;
+    height: 100%;
+    float:left;
+}
+
+.menuUItop {
+    width: 900px;
+    height: 100%;
+}
+
+.menuList {
+    width: 900px;
+    height: 100%;
+    list-style: none;
+    font-size: 16px;
+}
+
+.menuEle {
+    height: 100%;
+    padding: 30px 0;
+}
+
+#mainContainer {
+    width: 100%;
+    height: 960px;
+    margin-top: 0px;
+    background-color: beige;
+}
+
+.material-icons {
+    color: black;
+    font-size: 32px;
+    cursor: pointer;
+    float: right;
+    margin: 10px;
+}
+
+/* nav {
+    position: absolute;
+    top: 60px;
+    height: calc(100vh - 60px);
+    width: 300px;
+    background: #000;
+} */
+
+/* #mainPic {
+    width: 100%;
+    height: 500px;
+    margin-top: 0px;
+    background-color: black;
+} */
+
+footer {
+    width: 100%;
+    height: 150px;
+    margin-top: 0px;
+    background-color: white;
+}
