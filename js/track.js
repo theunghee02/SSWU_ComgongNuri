@@ -1,5 +1,5 @@
-// let toViolet = document.getElementById()
+let hasChild = document.querySelector('.hasChild');
 
-$("#sub_GNB_21").click(function (){
-        $("#li_sub_div").toggle();
-    });
+hasChild.addEventListener('click', function() {
+    hasChild.classList.toggle('hasChild')
+})
