@@ -1,0 +1,143 @@
+body {
+    width: 1518px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#info {
+    background-color: rgb(64, 69, 74);
+    width: 600px;
+    height: 280px;
+
+    float: left;
+    position: relative;
+}
+
+input {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    background: none;
+    outline: none;
+    float: left;
+    position: relative;
+}
+
+#info_text {
+    height: 200px;
+    padding: 25px;
+    line-height: 2;
+
+    position: relative;
+}
+
+#infoTextDetail {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 80px;
+}
+
+.itd {
+    position: relative;
+    line-height: 2;
+}
+
+li > a { text-decoration: none; }
+
+strong:hover {color: rgb(110, 110, 184);}
+strong {
+    color: #cfd0d2;
+    display: block;
+    font-size: 15px;
+
+    text-overflow: ellipsis;
+}
+
+.data {
+    color: #cfd0d2;
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    font-size: 1.1em;
+}
+
+.itdMore {
+    display: block;
+    position: absolute;
+    color: white;
+    top: 20px;
+    width: 24px;
+    height: 24px;
+}
+
+.menu1 {
+    position: relative;
+    width: 600px;
+    height: 140px;
+}
+
+.link_list_area ul li {
+
+    float: left;
+    width: 150px;
+    height: 140px;
+}
+
+.link_list_area ul li a {
+    padding: 15px 10px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    line-height: 20px;
+    display: block;
+}
+
+.link_list_area ul li .pic {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 10px;
+    border-radius: 50%;
+}
+
+.link_list_area ul li:nth-child(1) {
+    background-color: #595997;
+}
+
+.link_list_area ul li:nth-child(2) {
+    background-color: #3d4042;
+}
+
+.link_list_area ul li:nth-child(3) {
+    background-color: rgb(233,233,233);
+}
+
+.link_list_area ul li:nth-child(4) {
+    background-color: #64747f;
+}
+
+#menu2 {
+    position: relative;
+    width: 600px;
+    height: 140px;
+}
+.quick_link_area { padding: 50px 0;}
+
+.quick_link_area ul li {
+    position: relative;
+    float: left;
+    width: 120px;
+    height: 112px;
+    text-align: center;
+}
+
+.quick_link_area ul li a {
+    color: #5e6c80;
+    font-size: 16px;
+    line-height: 20px;
+    display: block;
+}
+
+.quick_link_area ul li .picSet {
+    margin-bottom: 10px;
+}
