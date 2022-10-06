@@ -35,6 +35,14 @@ b, strong {
     font-weight: 700;
 }
 
+a:link, a:active, a:visited {
+    color: #666;
+}
+
+html, body {
+    height:100%
+  }  
+
 /* Contents */
 .contents_area {
     padding: 60px 0;
@@ -132,7 +140,7 @@ h1.title {
     border: 0;
     border-radius: 0 3px 3px 0;
     margin-right: 0;
-    background: url(./btnSearch.png) #4d4b4a no-repeat 50% 50%;
+    background: url(./department/btnSearch.png) #4d4b4a no-repeat 50% 50%;
 }
 
 .artclTable {
@@ -160,11 +168,13 @@ h1.title {
     text-align: center;
     width: 80px;
     line-height: 2;
+    position: relative;
 }
 
  td._artclTdNum ._artclNotice {
     background-color: #4c5156;
     display: block;
+    box-sizing: border-box;
     margin: auto;
     color: #fff;
     font-size: 14px;
@@ -174,12 +184,19 @@ h1.title {
     background-repeat: no-repeat;
     border: 0;
     text-align: center;
-    position: relative;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    width: 80px;
+    height: 28px;
+    line-height: 2;
 }
 
 .artclTable td {
     border-width: 0;
     text-align: center;
+    box-sizing: border-box;
     width: 700px;
 }
 
@@ -193,7 +210,7 @@ h1.title {
     text-overflow: ellipsis;
     white-space: nowrap;
     padding: 8px 20px 3px 20px;
-    color: #666;
+    text-decoration: none;
 }
 
 .artclTable tr td._artclTdTitle strong {
@@ -204,12 +221,16 @@ h1.title {
 .artclTable tr td .artclLinkView .row-list li {
     padding-left: 0;
     position: relative;
-    /* float: left; */
+    float: left;
     display: inline-block;
     color: #999;
     font-size: 14px;
     padding: 10px;
     margin: -10px 0 0 0;
+}
+
+.artclTable tr td .artclLinkView strong:hover {
+    color: #605497;
 }
 
 .artclTable tr td .artclLinkView .row-list li:first-child {
@@ -224,6 +245,11 @@ h1.title {
     width: 1px;
     height: 15px;
     background-color: #999;
+    padding-right: 0;
+}
+
+.artclTable tr td .artclLinkView .row-list li:last-child::after {
+    display: none;
 }
 
 .artclTable tr td._artclTdRdate {
