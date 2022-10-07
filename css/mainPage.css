@@ -1,7 +1,65 @@
 body {
-    width: 1518px;
+    width: 100%;
     height: 100%;
     margin: 0 auto;
+}
+
+#mainPic2 {
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+    position: relative;
+}
+
+#text_wrap1 {
+    height: auto;
+    width: 100%;
+    top: 210px;
+    z-index: 1;
+    position: absolute;
+}
+
+#text_wrap2 {
+    height: 100%;
+    width: 1200px;
+    margin: 0px auto;
+    position: relative;
+}
+
+#visual_text {
+    width: 800px;
+    height: 100%;
+    margin: 0px;
+
+    text-align: justify;
+    line-height: 1.5;
+}
+
+#visual_text > h2 {
+    color: black;
+    line-height: 1.2;
+    font-size: 45px;
+    font-weight: normal;
+}
+
+#p {
+    color: black;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+#multipleDiv {
+    position: relative;
+    z-index: 1;
+}
+
+#multipleContentDiv {
+    width: 1200px;
+    height: 100%;
+
+    margin: 50px auto;
+
+    position: relative;
 }
 
 #info {
@@ -10,6 +68,7 @@ body {
     height: 280px;
 
     float: left;
+    z-index: 1001; /*why?*/
     position: relative;
 }
 
@@ -18,13 +77,13 @@ input {
     font-weight: bold;
     color: white;
     background: none;
-    outline: none;
+    border: none;
     float: left;
     position: relative;
 }
 
 #info_text {
-    height: 200px;
+    height: 230px;
     padding: 25px;
     line-height: 2;
 
@@ -64,9 +123,12 @@ strong {
 
 .itdMore {
     display: block;
+
     position: absolute;
     color: white;
-    top: 20px;
+    top: 40px;
+    right: 10px;
+    background: url(https://www.sungshin.ac.kr/sites/ce/fnct/recentBbs/ce_bbs-type02/images/m_bbs_more.png) left top no-repeat;
     width: 24px;
     height: 24px;
 }
@@ -96,7 +158,7 @@ strong {
 .link_list_area ul li .pic {
     width: 80px;
     height: 80px;
-    margin: 0 auto 10px;
+    margin: 0 auto 5px;
     border-radius: 50%;
 }
 
@@ -117,16 +179,28 @@ strong {
 }
 
 #menu2 {
-    position: relative;
     width: 600px;
-    height: 140px;
+    height: 212px; /*auto?*/
+    margin: -33px 0px 0px;
+
+    overflow: hidden;
+
+    position: relative;
 }
-.quick_link_area { padding: 50px 0;}
+
+.fnctWrap {
+    height: 100%;
+
+    position: relative;
+    line-height: 2;
+}
+
+.quick_link_area { padding: 20px 0;}
 
 .quick_link_area ul li {
     position: relative;
     float: left;
-    width: 120px;
+    width: 20%;
     height: 112px;
     text-align: center;
 }
@@ -140,4 +214,8 @@ strong {
 
 .quick_link_area ul li .picSet {
     margin-bottom: 10px;
+}
+
+.picSet img {
+    vertical-align: top; /*why*/
 }
