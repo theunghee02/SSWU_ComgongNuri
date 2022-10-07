@@ -209,7 +209,7 @@ h1.title {
 .artclTable tr td .artclLinkView .row-list li {
     padding-left: 0;
     position: relative;
-    /* float: left; */
+    float: left;
     display: inline-block;
     color: #999;
     font-size: 14px;
@@ -247,4 +247,92 @@ h1.title {
 
 .artclLinkView > a:hover {
     color: #664c9a !important;
+}
+
+/* 다음창으로 넘어가는 버튼 */
+._artclTdNum {
+    position: relative;
+}
+
+._artclNotice {
+    position: absolute;
+    width: 15.43px;
+    top: 29.25px;
+    left: 32.285px;
+}
+
+strong {
+    font-family: 'noto-medium', dotum, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+._paging ._inner > ._choose ul {
+    overflow: hidden;
+    position: relative;
+    height: 38px;
+}
+
+ul {
+    list-style-type: none;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+._choose > li {
+    list-style: none;
+}
+
+._paging ._inner > ._choose > li:first-child, ._paging ._inner > ._choose > li:last-child {
+    background-color: #f0f0f0;
+    color: #333;
+    position: relative;
+}
+
+._paging ._inner > ._choose > li:nth-child(2) {
+    background-color: #886fb9;
+    border-color: #664d97;
+    color: white;
+}
+
+._choose > li > a:last-child, ._choose > li > a:hover{
+    text-decoration: none;
+    color: 333333;
+}
+
+._choose > li {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #cdcdcd;
+    text-align: center;
+    float: left;
+    margin: 1px;
+    text-align: center;
+    
+}
+
+._paging {
+    width: 1200px;
+    height: 85.2px;
+    margin: 0 auto;
+    position: relative;
+}
+
+._inner {
+    width: 900px;
+    position: absolute;
+    right: 0px;
+    margin-top: 41.6px;
+}
+
+._choose {
+    position: absolute;
+    left: 374px;
 }
