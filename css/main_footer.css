@@ -1,8 +1,198 @@
-.temp05 #footer .fot_cont {
+* {
+    margin: 0;
+    padding: 0;
+    /* word-break: keep-all; */
+}
+
+#footer {
+    position: relative;
+    z-index: 20;
+    background-color: #373a3d;
+    display: block;
+}
+
+#footer .fot_cont {
     padding: 35px 0 35px;
 }
 
 div {
     font-family: 'noto-light', dotum, Arial, sans-serif;
     box-sizing: border-box;
+    display: block;
+}
+
+#footer .fot_cont .inner {
+    /* padding-left: 230px; */
+    padding-bottom: 50px;
+}
+
+#footer .inner {
+    width: 1200px;
+    height: 91.6px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* 로고 */
+
+img {
+    vertical-align: top;
+}
+
+#footer .fot_logo {
+    width: 190px;
+    height: 55px;
+
+    position: absolute;
+    top: -10px;
+    left: 0;
+}
+
+#footer .fot_logo {
+    margin-top: 0;
+    position: relative;
+    margin-right: 40px;
+    float: left;
+}
+
+/* 관련 사이트 */
+#footer .fm_select .view {
+    /* padding: 6px 10px;
+    font-size: 13px;
+    line-height: 16px; */
+
+    width: 165px;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    color: #bcbcbc;
+    line-height: 18px;
+    background-color: #1b1e21;
+    border: 1px solid #0b0c0e;
+    text-align: left;
+}
+
+#footer .fm_select {
+    min-width: 165px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+input, button {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    
+    border: 0 none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#footer .fm_select .view span {
+    width: 143px;
+    height: 18px;
+    background-color: #bcbcbc;
+    background-size: 10px auto;
+    display: block;
+    background: url(../css/footer/ico_fm_plus.png) 100% 50% no-repeat;
+}
+
+/* 관련 사이트 안에 '+' 리스트
+#footer .fm_select.active .list {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    background-color: #474a4c;
+}
+
+ul {
+    {
+        font-family: 'noto-light', dotum, Arial, sans-serif;
+        box-sizing: border-box;
+    }
+} */
+
+/* 요소 */
+#footer .fot_menu {
+    margin-left: 0;
+    margin-top: -5px;
+    float: none;
+    position: relative;
+    top: 0;
+    float: right;
+}
+
+address {
+    display: block;
+    font-family: 'noto-light', dotum, Arial, sans-serif;
+    box-sizing: border-box;
+    font-style: normal;
+}
+
+#footer address, #footer p.copy {
+    width: 970px;
+    height: 20.8px;
+    font-size: 14px;
+    color: #ccc;
+    float: right;
+}
+
+/* 개인정보~ */
+
+#footer .fot_menu li:first-child::before {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 16px;
+    margin: 0 10px;
+    background-color: #777;
+    vertical-align: text-bottom;
+}
+
+#footer .fot_menu li a {
+    font-size: 14px;
+    color: #fefefe;
+    display: inline-block;
+    line-height: 22px;
+}
+
+li {
+    list-style: none;
+    width: auto;
+    float: right;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+
+    text-decoration: none;
+}
+
+.fot_menu {
+    top: 0px;
+    display: block !important;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    float: right;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
 }
