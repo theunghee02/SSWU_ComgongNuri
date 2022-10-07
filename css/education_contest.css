@@ -286,34 +286,31 @@ h1.title {
     transform:translate(-50%, -50%);
 }
 
-._paging ._inner > ._choose ul {
+/* Paging Bar */
+._paging {
+    padding: 40px 0 0 0;
+    text-align: center;
+}
+
+._paging ._inner {
     overflow: hidden;
     position: relative;
     height: 38px;
+    display: inline-block;
+    zoom: 1;
 }
 
-._choose > li {
-    list-style: none;
+._paging ._inner p._first {
+    background-position: 0 0;
+    font-size: 0;
+    background-image: url(../css/department/paging_first.gif);
+    background-repeat: no-repeat;
 }
 
-._paging ._inner > ._choose > li:first-child, ._paging ._inner > ._choose > li:last-child {
+._paging ._inner p {
+    line-height: 33px;
     background-color: #f0f0f0;
     color: #333;
-    position: relative;
-}
-
-._paging ._inner > ._choose > li:nth-child(2) {
-    background-color: #886fb9;
-    border-color: #664d97;
-    color: white;
-}
-
-._choose > li > a:last-child, ._choose > li > a:hover{
-    text-decoration: none;
-    color: 333333;
-}
-
-._choose > li {
     width: 36px;
     height: 36px;
     line-height: 36px;
@@ -321,27 +318,67 @@ h1.title {
     border-style: solid;
     border-color: #cdcdcd;
     text-align: center;
+    margin: 0 1px;
     float: left;
-    margin: 1px;
-    text-align: center;
-    
+    cursor: pointer;
 }
 
-._paging {
-    width: 1200px;
-    height: 85.2px;
-    margin: 0 auto;
+._paging ._inner ul {
+    overflow: hidden;
+    position: relative;
+    height: 38px;
+    float: left;
+    list-style: none;
+}
+
+._paging ._inner li {
+    line-height: 33px;
+    float: left;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #cdcdcd;
+    text-align: center;
+    margin: 0 1px;
+    list-style: none;
+    cursor: pointer;
+    font-size: 12px;
     position: relative;
 }
 
-._inner {
-    width: 900px;
+._paging ._inner li span {
     position: absolute;
-    right: 0px;
-    margin-top: 41.6px;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
 }
 
-._choose {
-    position: absolute;
-    left: 374px;
+._paging ._inner li:nth-child(1) {
+    background-color: #886fb9;
+    border-color: #664d97;
+    color: white;
+}
+
+._paging ._inner p._first {
+    font-size: 0;
+    background-image: url(../css/department/paging_first.gif);
+    background-repeat: no-repeat;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+._paging ._inner p._next {
+    font-size: 0;
+    background-image: url(../css/department/paging_next.gif);
+    background-repeat: no-repeat;
+    color: #333;
+}
+
+._paging ._inner p._last {
+    font-size: 0;
+    background-image: url(../css/department/paging_last.gif);
+    background-repeat: no-repeat;
+    color: #333;
 }
