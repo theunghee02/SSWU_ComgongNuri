@@ -229,6 +229,7 @@ button {
     width: 100%;
     height: 410px;
     margin-bottom: 20px;
+    /* background-color: antiquewhite; */
 }
 
 .professor_info .info_table_area{
@@ -276,4 +277,52 @@ th {
 .professor_table1 .txt_1 {
     background-color: white;
     text-align: left;
+}
+
+/* 출강교수 */
+.professor_info2{
+    width: 100%;
+    height: 230px;
+    margin-bottom: 20px;
+}
+
+.professor_info2 .info_table_area2 {
+    width: 100%;
+    height: 200px;
+}
+
+/* 학과소개 */
+.departmentIntro_paragraph {
+    width: 900px;
+    height: 540px;
+    background-color:darkcyan;
+}
+
+.departmentIntro_paragraph .departmentIntro_container_text {
+    padding-left: 30px;
+}
+
+.text_circle {
+    width: 9px;
+    height: 9px;
+    border:4px solid #60609f;
+    border-radius: 50%;
+    float: left;
+    background-color: white;
+}
+
+dt {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+    font-weight:bold;
+    float: left;
+}
+
+/* 학과연혁 */
+.history_box{
+    width: 100%;
+    height: 640px;
+    margin-bottom: 20px;
+    background-color: antiquewhite;
 }
