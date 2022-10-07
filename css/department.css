@@ -252,6 +252,13 @@ h1.title {
     display: none;
 }
 
+.artclTable tr td .artclLinkView .row-list li:nth-child(3) {
+    width: 40px;
+    height: 48px;
+    text-indent: -99999px;
+    background: url(./department/link.gif) center center no-repeat;
+}
+
 /* 날짜 가운데로 */
 .artclTable tr td._artclTdRdate {
     padding: 0 20px;
@@ -278,3 +285,4 @@ h1.title {
     left:50%;
     transform:translate(-50%, -50%);
 }
+
