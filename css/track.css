@@ -92,21 +92,12 @@ a {
     font-weight: 600;
 }
 
-/* 자식 토글을 가지며 클릭(활성화)된 상태 */
-#menuUIsub .li_2._useChildDiv._active .a_2 {
+#menuUIsub .li_2._useChildDiv .a_2 {
     color: #60609f;
     font-weight: 600;
-    background: url('https://www.sungshin.ac.kr/sites/knowledge_02_tem05/masterSkin/knowledge_02_tem05_sub/images/common/ico_lnb_arrow_up.png') 95% 50% no-repeat;
-}
-/* 자식 토글 갖지만 비활성화 상태 */
-#menuUIsub .li_2._useChildDiv .a_2 {
     background: url('https://www.sungshin.ac.kr/sites/knowledge_02_tem05/masterSkin/knowledge_02_tem05_sub/images/common/ico_lnb_arrow_down.png') 95% 50% no-repeat;
 }
 /* 자식 토글 없고 활성화된 상태 */
 #menuUIsub .li_2._active .a_2 {
     background: url('https://www.sungshin.ac.kr/sites/knowledge_02_tem05/masterSkin/knowledge_02_tem05_sub/images/common/ico_lnb_arrow_up_1d.png') 95%  
-}
-
-#menuUIsub .li_2._active .a_2.hasChild {
-    
 }
