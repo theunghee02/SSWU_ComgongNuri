@@ -1,16 +1,8 @@
-
-        #subContainer .inner {
-            width: auto;
-        }
-        #subContainer .inner {
-            width: 1200px;
-            margin: 0 auto;
-            position: relative;
-        }
         .inner{
             width: 1200px;
             margin: 0 auto;
             position: relative;
+            height: 50px;
         }
         body, p, div, ul, li, dl, dd, ol, fieldset, textarea, input, select, table, td, address, cite, a, em, span {
             font-family: 'noto-light', dotum, Arial, sans-serif;
@@ -33,7 +25,7 @@
         }
         #loacation_navi {
             padding-left: 46px;
-            position: relative;
+            position: absolute;
             float: left;
         }
         #loacation_navi .home {
@@ -78,8 +70,8 @@
         .navigator_bar {
             position: relative;
             z-index: 10;
-            border-bottom: 1px solid #d5d5d5;
             margin-top: 332px;
+            border-bottom: 1px solid #d5d5d5;
         }
         #loacation_navi .history_list{
             margin-left: -1px;
@@ -95,7 +87,6 @@
         #loacation_navi .history_list {
             height: 50px;
             min-width: 180px;
-            padding: 15px 30px 15px 10px;
             font-size: 13px;
             color: #333;
             display: block;
@@ -111,11 +102,15 @@
             background-repeat: no-repeat;
             background-position: 0 0;
             background-size: 12px auto;
-            background-image: url('https://www.sungshin.ac.kr/sites/knowledge_02_tem05/masterSkin/knowledge_02_tem05_sub/images/common/ico_history_down.png');
             margin-top: -4px;
             position: absolute;
             top: 35%;
             right: 8px;
+        }
+        #loacation_navi .history_list .view {
+            top: 15px;
+            left: 10px;
+            position: absolute;
         }
         #loacation_navi .dep_list{
             width: 100%;
@@ -124,7 +119,6 @@
             top: 51px;
             left: 0;
             border-right: 1px solid #d5d5d5;
-            border-bottom: 1px solid #cdcdcd;
             border-left: 1px solid #d5d5d5;
             background-color: #fff;
         }
@@ -142,3 +136,6 @@
             clear: both;
         }
         body {font-size: 12px;}
+        details summary {
+            background: url('https://www.sungshin.ac.kr/sites/knowledge_02_tem05/masterSkin/knowledge_02_tem05_sub/images/common/ico_history_down.png') center center no-repeat/cover;
+        }
