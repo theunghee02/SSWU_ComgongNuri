@@ -92,7 +92,7 @@
         #loacation_navi .history_list.active a:after {
             background-image: url(/sites/knowledge_02_tem05/masterSkin/knowledge_02_tem05_sub/images/common/ico_history_up.png);
         }
-        #loacation_navi .history_list a.view {
+        #loacation_navi .history_list {
             height: 50px;
             min-width: 180px;
             padding: 15px 30px 15px 10px;
@@ -103,7 +103,7 @@
             border-right: 1px solid #d5d5d5;
             border-left: 1px solid #d5d5d5;
         }
-        #loacation_navi .history_list a.view:after {
+        #loacation_navi .history_list:after {
             content: "";
             display: block;
             width: 12px;
