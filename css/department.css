@@ -230,7 +230,7 @@ h1.title {
 }
 
 .artclTable tr td .artclLinkView strong:hover {
-    color: #605497;
+    color: #664c9a !important;
 }
 
 .artclTable tr td .artclLinkView .row-list li:first-child {
@@ -286,3 +286,99 @@ h1.title {
     transform:translate(-50%, -50%);
 }
 
+/* Paging Bar */
+._paging {
+    padding: 40px 0 0 0;
+    text-align: center;
+}
+
+._paging ._inner {
+    overflow: hidden;
+    position: relative;
+    height: 38px;
+    display: inline-block;
+    zoom: 1;
+}
+
+._paging ._inner p._first {
+    background-position: 0 0;
+    font-size: 0;
+    background-image: url(../css/department/paging_first.gif);
+    background-repeat: no-repeat;
+}
+
+._paging ._inner p {
+    line-height: 33px;
+    background-color: #f0f0f0;
+    color: #333;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #cdcdcd;
+    text-align: center;
+    margin: 0 1px;
+    float: left;
+    cursor: pointer;
+}
+
+._paging ._inner ul {
+    overflow: hidden;
+    position: relative;
+    height: 38px;
+    float: left;
+    list-style: none;
+}
+
+._paging ._inner li {
+    line-height: 33px;
+    float: left;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #cdcdcd;
+    text-align: center;
+    margin: 0 1px;
+    list-style: none;
+    cursor: pointer;
+    font-size: 12px;
+    position: relative;
+}
+
+._paging ._inner li span {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+._paging ._inner li:nth-child(1) {
+    background-color: #886fb9;
+    border-color: #664d97;
+    color: white;
+}
+
+._paging ._inner p._first {
+    font-size: 0;
+    background-image: url(../css/department/paging_first.gif);
+    background-repeat: no-repeat;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+._paging ._inner p._next {
+    font-size: 0;
+    background-image: url(../css/department/paging_next.gif);
+    background-repeat: no-repeat;
+    color: #333;
+}
+
+._paging ._inner p._last {
+    font-size: 0;
+    background-image: url(../css/department/paging_last.gif);
+    background-repeat: no-repeat;
+    color: #333;
+}
