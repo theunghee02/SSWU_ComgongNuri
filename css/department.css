@@ -230,7 +230,7 @@ h1.title {
 }
 
 .artclTable tr td .artclLinkView strong:hover {
-    color: #605497;
+    color: #664c9a !important;
 }
 
 .artclTable tr td .artclLinkView .row-list li:first-child {
