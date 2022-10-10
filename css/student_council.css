@@ -1,8 +1,3 @@
-body {
-    font-family: 'noto-light', dotum, Arial, sans-serif;
-    box-sizing: border-box;
-}
-
 .contents_area {
     position: relative;
     top: 382px;
@@ -24,6 +19,7 @@ body {
     width: 230px;
     margin-right: 70px;
     background-color: white;
+    position: relative;
 }
 
 #menuUIsub .menuSubTitleUI h2 {
@@ -98,4 +94,20 @@ a {
     color: #60609f;
     font-weight: 600;
     background: url('https://www.sungshin.ac.kr/sites/knowledge_02_tem05/masterSkin/knowledge_02_tem05_sub/images/common/ico_lnb_arrow_up_1d.png') 95% 50% no-repeat;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 40px;
+    color: #3b3c40;
+    line-height: 45px;
+}
+
+.contents {
+    background-color: #60609f;
+    position: absolute;
+}
+
+#contentsEditHtml {
+    background-color: aqua;
 }
