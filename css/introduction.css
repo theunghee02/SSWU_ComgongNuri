@@ -30,7 +30,6 @@ header .fnctWrap .top {
 
 .inner {
     width: 80%;
-    /* height: 40px; */
     float: left;
     margin: 0 160px;
 }
@@ -93,8 +92,6 @@ header .inner .logo {
 }
 
 header .header_bg .gnb_bg .header_menu {
-    /* width: 100%; */
-    /* height: auto; */
     height: 90px;
     float: right;
 }
@@ -106,7 +103,6 @@ header .header_bg .gnb_bg .header_bg .menuUItop {
 .menuTop_div {
     width: 900px;
     height: 90px;
-    /* background-color: chocolate; */
 }
 
 .menuTop_ul{
@@ -158,7 +154,6 @@ button {
 .subContainer .navigator_bar {
     width: 100%;
     height: 50px;
-    /* background-color:antiquewhite; */
     
 }
 
@@ -173,7 +168,6 @@ button {
     width: 230px;
     height: 200px;
     float: left;
-    /* background-color:antiquewhite; */
 }
 
 .subContainer .contents_area #contents{
@@ -189,6 +183,7 @@ button {
     margin-bottom: 40px;
 }
 
+/* 인사말 */
 .subContainer .contents_area .text_bg {
     margin-bottom: 40px;
     font-size: 24px;
@@ -227,4 +222,107 @@ button {
     width:100%;
     height: 160px;
     background-color: #3b3c40;
+}
+
+/* 교수소개 */
+.professor_info{
+    width: 100%;
+    height: 410px;
+    margin-bottom: 20px;
+    /* background-color: antiquewhite; */
+}
+
+.professor_info .info_table_area{
+    float: right;
+    width: 700px;
+    height: 378px;
+    right: 0%;
+}
+
+.professor_info .professor_pic_area {
+    float: left;
+    width: 160px;
+    height: 300px;
+}
+
+.professor_info .professor_pic_area .btn_more{
+    width: 160px;
+    height: 44px;
+    margin-top: 20px;
+    padding: 0px;
+    color: #666;
+    cursor: pointer;
+    border: 3px solid #60609f;
+    border-radius: 10px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.professor_table1 {
+    width: 100%;
+    height: 100%;
+    border-top: solid 3px #60609f;
+    
+    border-collapse: collapse;
+    background-color: #f6f6f7;
+}
+
+th {
+    padding: 5px;
+    border: solid 1px #dddddf;
+    vertical-align: middle;
+}
+
+.professor_table1 .txt_1 {
+    background-color: white;
+    text-align: left;
+}
+
+/* 출강교수 */
+.professor_info2{
+    width: 100%;
+    height: 230px;
+    margin-bottom: 20px;
+}
+
+.professor_info2 .info_table_area2 {
+    width: 100%;
+    height: 200px;
+}
+
+/* 학과소개 */
+.departmentIntro_paragraph {
+    width: 900px;
+    height: 540px;
+    background-color:darkcyan;
+}
+
+.departmentIntro_paragraph .departmentIntro_container_text {
+    padding-left: 30px;
+}
+
+.text_circle {
+    width: 9px;
+    height: 9px;
+    border:4px solid #60609f;
+    border-radius: 50%;
+    float: left;
+    background-color: white;
+}
+
+dt {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+    font-weight:bold;
+    float: left;
+}
+
+/* 학과연혁 */
+.history_box{
+    width: 100%;
+    height: 640px;
+    margin-bottom: 20px;
+    background-color: antiquewhite;
 }
