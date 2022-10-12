@@ -4,6 +4,35 @@ body {
     margin: 0 auto;
 }
 
+#bxViewport {
+    width: 100%;
+    height: 605px;
+    overflow: hidden;
+    position: relative;
+}
+
+#bxControl {
+    width: 100%;
+    bottom: 70px;
+    left: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+#bxPager {
+    display: block;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.bxPager_item {
+    float: left;
+}
+
+#bxContl_auto {
+    display: inline-block;
+}
+
 #mainPic2 {
     width: 100%;
     height: 650px;
