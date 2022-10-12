@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
     /* word-break: keep-all; */
 }
 
@@ -21,15 +22,15 @@ div {
     display: block;
 }
 
-#footer .fot_cont .inner {
-    /* padding-left: 230px; */
+#footer .fot_cont > .inner {
+    padding-left: 230px;
     padding-bottom: 50px;
 }
 
 #footer .inner {
     width: 1200px;
     height: 91.6px;
-    margin: 0 auto;
+    margin: 0 161.6px 0 161.6px;
     position: relative;
 }
 
@@ -42,17 +43,13 @@ img {
 #footer .fot_logo {
     width: 190px;
     height: 55px;
-
-    position: absolute;
-    top: -10px;
-    left: 0;
 }
 
 #footer .fot_logo {
     margin-top: 0;
-    position: relative;
-    margin-right: 40px;
-    float: left;
+    position: absolute;
+    top: -10px;
+    left: 0;
 }
 
 /* 관련 사이트 */
@@ -129,17 +126,16 @@ ul {
 
 address {
     display: block;
-    font-family: 'noto-light', dotum, Arial, sans-serif;
     box-sizing: border-box;
-    font-style: normal;
 }
 
 #footer address, #footer p.copy {
-    width: 970px;
+    /*width: 970px;*/
     height: 20.8px;
     font-size: 14px;
     color: #ccc;
-    float: right;
+    float: left;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 /* 개인정보~ */
@@ -175,6 +171,7 @@ a {
     vertical-align: baseline;
 
     text-decoration: none;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 .fot_menu {
