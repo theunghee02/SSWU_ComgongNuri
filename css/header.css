@@ -11,10 +11,6 @@ a {
     padding: 0 20px;
 }
 
-li {
-    float: left;
-}
-
 header .fnctWrap {
     width: 100%;
     height: 330px;
@@ -50,6 +46,10 @@ header .fnctWrap .btn_direct {
     padding:20px;
 }
 
+.btn_direct_child {
+    float: left;
+}
+
 header .top_link {
     border-right: 1px solid #d4d4d4;
     color: #fff;
@@ -67,8 +67,6 @@ header .fnctWrap .globalUI {
     font-size: 14px;
     text-align: center;
     border-right: 1px solid #d4d4d4;
-
-
     color: #fff;
 }
 
@@ -108,21 +106,20 @@ header .header_bg .gnb_bg .header_bg .menuUItop {
 .menuTop_ul{
     height: 90px;
     text-align: center;
+    position: relative;
 }
 
 .menuTop_list{
     width: 20%;
     height: 30px;
-
-    /* display: flex; */
-    /* text-align: center; */
-    /* justify-content: center; */
-    /* margin: auto;*/
-    /* padding: auto 0; */
-    display:inline-block;
-    /* padding: 37px 0; */
     padding-top: 37px;
     padding-bottom: 23px;
+    position: relative;
+
+    float: left;
+
+    font-size: 18px;
+    font-weight:800;
 }
 
 /* 해더: 페이지 이름 */
@@ -134,18 +131,52 @@ header .fnctWrap .page_name {
     display : flex;
     justify-content: center;
     align-items : center;
+
+    font-weight: 600;
 }
 
-button {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
+/* 헤더: 호버 */
+.hide_menu {
+    width: 100%;
+    height: 260px;
+    position: absolute;
+    top: 90px;
+    background-color:white;
+    display: none;
+    border: 1px solid #afb4b8;
+}
 
-    margin: 0;
-    font-size: 14px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    width: auto;
-    border: none;
-  }
+.menuTop_ul:hover .hide_menu{
+    display: block;
+}
+
+.hide_menu .hide_menu_ul .hide_menu_list .hide_factor {
+    width: 180px;
+    height: 52px;
+    padding: 0;
+    color: #5f6468;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: normal;
+}
+
+.hide_factor_text{
+    padding: 15px 10px;
+}
+
+.hide_menu .hide_menu_ul .hide_menu_list .hide_factor:hover {
+    color: #fff;
+    background-color:#5f6468;
+    font-weight: bold;
+}
+
+.hide_hide_factor {
+    width: 100px;
+    height: 125px;
+    background-color: #60609f;
+    display: none;
+}
+
+.hide_factor:hover .hide_hide_factor {
+    display: block;
+}
