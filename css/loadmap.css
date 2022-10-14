@@ -81,9 +81,6 @@
         #loacation_navi .history_list:first-child {
             margin-left: 0;
         }
-        #loacation_navi .history_list.active a:after {
-            background-image: url(/sites/knowledge_02_tem05/masterSkin/knowledge_02_tem05_sub/images/common/ico_history_up.png);
-        }
         #loacation_navi .history_list {
             height: 50px;
             min-width: 180px;
@@ -108,20 +105,22 @@
             right: 8px;
         }
         #loacation_navi .history_list .view {
-            top: 15px;
+            top: 16px;
             left: 10px;
             position: absolute;
         }
-        #loacation_navi .dep_list{
-            width: 100%;
+        #loacation_navi .dep_list {
+            width: 182px;
             padding: 10px;
             position: absolute;
             top: 51px;
-            left: 0;
+            left: -1px;
             border-right: 1px solid #d5d5d5;
+            border-bottom: 1px solid #cdcdcd;
             border-left: 1px solid #d5d5d5;
             background-color: #fff;
         }
+        
         #loacation_navi .dep_list li:first-child{
             margin-top: 0;
         }
@@ -135,7 +134,14 @@
             display: block;
             clear: both;
         }
-        body {font-size: 12px;}
-        details summary {
-            background: url('https://www.sungshin.ac.kr/sites/knowledge_02_tem05/masterSkin/knowledge_02_tem05_sub/images/common/ico_history_down.png') center center no-repeat/cover;
+        ul{
+            list-style: none;
+        }
+        details summary{
+            display: block;
+            width: 182px;
+        }
+        details {
+            background: url('https://www.sungshin.ac.kr/sites/knowledge_02_tem05/masterSkin/knowledge_02_tem05_sub/images/common/ico_history_down.png')90% no-repeat;
+            background-size: 7%;
         }

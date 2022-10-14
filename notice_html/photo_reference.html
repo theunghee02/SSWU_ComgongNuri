@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head><!-- 문자 인코딩 설정 -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 뷰포트 렌더링 방식 설정 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 페이지 제목 설정 -->
+    <title>사진자료실</title>
+    <!-- favicon -->
+    <link rel="icon" href="../css/department/favicon.ico" type="image/x-icon">
+
+    <!-- 각 브라우저의 기본 스타일을 초기화 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <!-- 구글 폰트: main.css보다 먼저 불러올 수 있도록 한다 -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Google Material Design -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- main.css -->
+    <link rel="stylesheet" href="../css/department.css">
+</head>
+<body>
+    <header id = "header"></header>
+    <div class="contents_area">
+        <div class="inner">
+            <div class="left_area"></div>
+            <div id="contents">
+                <div class="title_wrap">
+                    <h1 class="title">
+                        <span>사진자료실</span>
+                    </h1>
+                </div>
+                <div id="contentsEditHtml">
+                    <section id="searchWrapper">
+                        <div class="fnDiv artclSearch">
+                            <div class="fnLeft">
+                                <strong>4</strong>
+                                건
+                            </div>
+                            <div class="fnRight fnSearch">
+                                <fieldset>
+                                    <select name="srchColumn" id="srchColumn" class="_selectBox" title="검색구분">
+                                        <option value="sj">제목</option>
+                                        <option value="writer">작성자</option>
+                                    </select>
+                                    <input type="text" id="srchWrd" name="srchWrd" title="검색어입력">
+                                    <span class="_button fnSubmit">
+                                        <input type="submit" value="검색">
+                                    </span>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- 공지사항 -->
+                    <section id="viewWrapper">
+                        <table class="artclTable">
+                            <tbody>
+                                <!-- 공지 1 -->
+                                <tr class="headline">
+                                    <td class="_artclTdNum">
+                                        <span>1</span>
+                                    </td>
+                                    <td class="_artclTdTitle">
+                                        <a href="https://www.sungshin.ac.kr/ce/11806/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGY2UlMkYzNDA5JTJGMTEzNzkyJTJGYXJ0Y2xWaWV3LmRvJTNGcGFnZSUzRDElMjZzcmNoQ29sdW1uJTNEJTI2c3JjaFdyZCUzRCUyNmJic0NsU2VxJTNEJTI2YmJzT3BlbldyZFNlcSUzRCUyNnJnc0JnbmRlU3RyJTNEJTI2cmdzRW5kZGVTdHIlM0QlMjZpc1ZpZXdNaW5lJTNEZmFsc2UlMjZwYXNzd29yZCUzRCUyNg%3D%3D" 
+                                        class="artclLinkView">
+                                            <!-- <strong>[We-Up] 오픈소스 소프트웨어 개발 프랙티스</strong>
+                                            <div class="row-list">
+                                                <ul>
+                                                    <li>
+                                                        adm_ce
+                                                    </li>
+                                                    <li>
+                                                        조회수 642
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </a>
+                                    </td>
+                                    <td class="_artclTdRdate">
+                                        <span class="date">2017.06.28</span>
+                                    </td> -->
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </section>
+
+                    <!-- paging bar -->
+                    <div class="_paging">
+                        <div class="_inner">
+                            <p class="_first">처음</p>
+                            <ul>
+                                <li>
+                                    <span>
+                                        <strong>1</strong>
+                                    </span>
+                                </li>
+                            </ul>
+                            <p class="_last">끝</p>
+                        </div>
+                    </div>
+
+                    <div class="contentBox">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <footer id="footer"></footer> -->
+</body>
+</html>
