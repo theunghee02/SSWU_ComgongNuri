@@ -180,3 +180,41 @@ header .fnctWrap .page_name {
 .hide_factor:hover .hide_hide_factor {
     display: block;
 }
+
+/* 호버의 호버 */
+.hide2_menu {
+    width: 180px;
+    height: 0px;
+    display:none;
+    position: relative;
+    left:100%;
+    top: -52px;
+    z-index: 1;
+}
+
+.hide_menu_list:hover .hide2_menu {
+    display:block;
+} 
+
+.hide2_menu .hide2_ul .hide2_li{
+    border-top: 1px solid #7f8386;
+    background-color: #5f6468;
+}
+
+.hide2_menu .hide2_ul .hide2_li .hide2_a {
+    color: #ddd;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 8px 0;
+}
+
+.hide2_menu .hide2_ul .hide2_li .hide2_a:hover {
+    font-weight: bold;
+    color: #fff;
+}
+
+.hide2_menu:hover .hide_factor{
+    color: #fff;
+    background-color:#5f6468;
+    font-weight: bold;
+}
