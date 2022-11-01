@@ -1,0 +1,476 @@
+
+
+header {
+    width: 100%;
+    height: 235px;
+    margin-top: 0px;
+    background-color: bisque;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.material-icons {
+    color: black;
+    font-size: 32px;
+    cursor: pointer;
+    float: right;
+    margin: 10px;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    margin-top: 0px;
+    background-color: blue;
+}
+
+/* Common */
+b,h1,h2,h3,h4,h5,h6,th,dt, strong {
+	/* font-family:'noto-medium', dotum, Arial, sans-serif; */
+    box-sizing: border-box;
+}
+body,p,div,ul,li,dl,dd,ol,fieldset,textarea,input,select,table,td,address,cite,a,em,span {
+	/* font-family:'noto-light', dotum, Arial, sans-serif; */
+    box-sizing: border-box;
+}
+
+b, strong {
+    font-weight: 700;
+}
+
+a:link, a:active, a:visited {
+    color: #666;
+}
+
+html, body {
+    height:100%
+  }  
+
+/* Contents */
+.contents_area {
+    padding: 60px 0;
+}
+
+.contents_area .inner {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#contents {
+    width: 900px;
+    margin-left: 300px;
+}
+
+h1.title {
+    margin-bottom: 40px;
+    font-size: 40px;
+    color: #3b3c40;
+    line-height: 45px;
+}
+
+#contentsEditHtml {
+    height: 100%;
+    width: 100%;
+    table-layout: fixed;
+    position: relative;
+    line-height: 2;
+}
+
+#searchWrapper {
+    margin: 0;
+}
+
+.fnDiv {
+    position: relative;
+}
+
+.fnDiv.artclSearch {
+    height: auto;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.fnDiv .fnLeft {
+    line-height: 38px;
+    float: left;
+}
+
+.fnDiv .fnRight {
+    position: relative;
+    float: right;
+}
+
+.fnDiv .fnSearch fieldset {
+    float: right;
+    position: relative;
+}
+
+.fnDiv .fnSearch fieldset select {
+    height: 38px !important;
+    line-height: 38px;
+    color: #666;
+    margin-right: 0.5em;
+    float: left;
+    border: 1px #ccc solid;
+}
+
+.fnDiv .fnSearch fieldset input[type="text"] {
+    height: 38px;
+    width: 150px;
+    padding: 0;
+    line-height: 38px;
+    text-indent: 10px;
+    color: #666;
+    float: left;
+    border-width: 1px;
+    border-color: #cccccc;
+    border-style: solid;
+    border-radius: 0;
+
+}
+
+.fnSearch fieldset .fnSubmit {
+    line-height: 28px;
+}
+
+.fnDiv .fnSearch fieldset .fnSubmit input {
+    width: 38px;
+    height: 38px;
+    float: left;
+    text-indent: -5000px;
+    border: 0;
+    border-radius: 0 3px 3px 0;
+    margin-right: 0;
+    background: url(./department/btnSearch.png) #4d4b4a no-repeat 50% 50%;
+}
+
+.artclTable {
+    width: 100%;
+    table-layout: fixed;
+    position: relative;
+}
+
+.artclTable tr {
+    border-top: 1px solid #eaeaea;
+}
+
+.artclTable tbody {
+    border-top: 2px solid #4c5156;
+    border-bottom: 1px solid #4c5156;
+}
+
+.artclTable tr {
+    border-top: 1px solid #eaeaea;
+}
+
+/* 공지 가운데로 */
+.artclTable tr td._artclTdNum {
+    border-width: 0;
+    text-align: center;
+    width: 80px;
+    line-height: 2;
+    position: relative;
+}
+
+/* 공지 가운데로 */
+ td._artclTdNum ._artclNotice {
+    background-color: #4c5156;
+    display: block;
+    box-sizing: border-box;
+    margin: auto;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 100px;
+    overflow: hidden;
+    background-position: 9px -326px;
+    background-repeat: no-repeat;
+    border: 0;
+    text-align: center;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    width: 80px;
+    height: 28px;
+}
+
+.artclTable td {
+    border-width: 0;
+    text-align: center;
+    box-sizing: border-box;
+    width: 700px;
+}
+
+.artclTable tr td .artclLinkView {
+    position: relative;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 8px 20px 3px 20px;
+    text-decoration: none;
+}
+
+.artclTable tr td._artclTdTitle strong {
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.artclTable tr td .artclLinkView .row-list li {
+    padding-left: 0;
+    position: relative;
+    float: left;
+    display: inline-block;
+    color: #999;
+    font-size: 14px;
+    padding: 10px;
+    margin: -10px 0 0 0;
+}
+
+.artclTable tr td .artclLinkView strong:hover {
+    color: #664c9a !important;
+}
+
+.artclTable tr td .artclLinkView .row-list li:first-child {
+    padding-left: 0;
+}
+
+.artclTable tr td .artclLinkView .row-list li:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 17px;
+    width: 1px;
+    height: 15px;
+    background-color: #999;
+    padding-right: 0;
+}
+
+.artclTable tr td .artclLinkView .row-list li:last-child::after {
+    display: none;
+}
+
+.artclTable tr td .artclLinkView .row-list li:nth-child(3) {
+    width: 40px;
+    height: 48px;
+    text-indent: -99999px;
+    background: url(./department/link.gif) center center no-repeat;
+}
+
+/* 날짜 가운데로 */
+.artclTable tr td._artclTdRdate {
+    padding: 0 20px;
+    border-width: 0;
+    width: 120px;
+    position: relative;
+}
+
+.artclTable tr td._artclTdRdate .date {
+    text-align: center;
+    color: #999;
+    font-size: 16px;
+    text-align: center;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+.artclTable tr td._artclTdNum span {
+    font-size: 15px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+/* Paging Bar */
+._paging {
+    padding: 40px 0 0 0;
+    text-align: center;
+}
+
+._paging ._inner {
+    overflow: hidden;
+    position: relative;
+    height: 38px;
+    display: inline-block;
+    zoom: 1;
+}
+
+._paging ._inner p._first {
+    background-position: 0 0;
+    font-size: 0;
+    background-image: url(../css/department/paging_first.gif);
+    background-repeat: no-repeat;
+}
+
+._paging ._inner p {
+    line-height: 33px;
+    background-color: #f0f0f0;
+    color: #333;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #cdcdcd;
+    text-align: center;
+    margin: 0 1px;
+    float: left;
+    cursor: pointer;
+}
+
+._paging ._inner ul {
+    overflow: hidden;
+    position: relative;
+    height: 38px;
+    float: left;
+    list-style: none;
+}
+
+._paging ._inner li {
+    line-height: 33px;
+    float: left;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #cdcdcd;
+    text-align: center;
+    margin: 0 1px;
+    list-style: none;
+    cursor: pointer;
+    font-size: 12px;
+    position: relative;
+}
+
+._paging ._inner li span {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+._paging ._inner li:nth-child(1) {
+    background-color: #886fb9;
+    border-color: #664d97;
+    color: white;
+}
+
+._paging ._inner p._first {
+    font-size: 0;
+    background-image: url(../css/department/paging_first.gif);
+    background-repeat: no-repeat;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+._paging ._inner p._next {
+    font-size: 0;
+    background-image: url(../css/department/paging_next.gif);
+    background-repeat: no-repeat;
+    color: #333;
+}
+
+._paging ._inner p._last {
+    font-size: 0;
+    background-image: url(../css/department/paging_last.gif);
+    background-repeat: no-repeat;
+    color: #333;
+}
+
+/* For photo_reference.html */
+.artclList {
+    border-top: 2px solid #555;
+    border-bottom: 1px solid #d4d4d4;
+    padding: 20px 0;
+}
+
+.artclList::before {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.artclList .thumbLi {
+    float: left;
+    width: 25%;
+    position: relative;
+}
+
+.artclList .artclLinkView {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    margin: 0.5em;
+    color: #000;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+.artclList .thumbLi .thumbnail {
+    width: 100%;
+    max-width: 200px;
+    height: 133px;
+    overflow: hidden;
+    background-color: #000;
+    margin: 1em auto;
+}
+
+.artclList .thumbLi .thumbnail img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: 1px solid #d1d1d1;
+    box-sizing: border-box;
+    max-width: 100%;
+    vertical-align: top;
+}
+
+.artclList .artclInfo {
+    text-align: center;
+}
+
+.artclList .artclInfo .artclTitle {
+    color: #333;
+    font-size: 15px;
+    display: block;
+    line-height: 1.5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+}
+
+.artclList .artclInfo dl {
+    text-align: center;
+    display: inline-block;
+    zoom: 1;
+    color: #333;
+}
+
+.artclList .artclInfo dl dd {
+    color: #999;
+    font-size: 14px;
+    display: inline-block;
+    zoom: 1;
+}
+
+.artclList .artclInfo ._artclWriter dd::after {
+    content: " / ";
+    color: #bbb;
+}
+
+.artclList:after {
+    content: "";
+    display: block;
+    clear: both;
+}
