@@ -299,14 +299,14 @@ th {
     height: 600px;
     float: right;
 
-    background-color: antiquewhite;
+    
 }
 
 .contents:first-child {
     width: 900px;
     height: 280px;
 
-    background-color: aliceblue;
+   
 }
 
 .contents:nth-child(2) {
@@ -314,7 +314,7 @@ th {
     height: 170px; /*auto*/
     margin-top: 30px;
 
-    background-color:thistle;
+    
 }
 
 .contents:nth-child(3) {
@@ -322,7 +322,7 @@ th {
     height: 100px; /*auto*/
     margin-top: 30px;
 
-    background-color:thistle;
+    
 }
 
 .fdot {
@@ -330,7 +330,7 @@ th {
     height: 280px; /*auto*/
     float: left;
 
-    background-color: yellowgreen;
+    
 }
 
 .ndot {
@@ -338,7 +338,7 @@ th {
     height: 100px; /*auto*/
     float: left;
 
-    background-color: yellowgreen;
+    
 }
 
 .desc {
@@ -372,7 +372,7 @@ th {
     height: 125px;
     float: left;
 
-    background-color: sandybrown;
+    background-color:aliceblue;
 }
 
 .cnt_list {
