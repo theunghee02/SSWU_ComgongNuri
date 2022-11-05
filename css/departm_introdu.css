@@ -372,7 +372,6 @@ th {
     height: 125px;
     float: left;
 
-    background-color:aliceblue;
 }
 
 .cnt_list {
@@ -384,6 +383,10 @@ th {
 }
 
 .cnt_list li { margin-top: 15px;}
+
+.dotspace {
+    height: 10px;
+}
 
 /* 학과연혁 */
 .history_box{
