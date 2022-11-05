@@ -384,3 +384,93 @@ h1.title {
     background-repeat: no-repeat;
     color: #333;
 }
+
+/* For photo_reference.html */
+.artclList {
+    border-top: 2px solid #555;
+    border-bottom: 1px solid #d4d4d4;
+    padding: 20px 0;
+}
+
+.artclList::before {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.artclList .thumbLi {
+    float: left;
+    width: 25%;
+    position: relative;
+}
+
+.artclList .artclLinkView {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    margin: 0.5em;
+    color: #000;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+.artclList .thumbLi .thumbnail {
+    width: 100%;
+    max-width: 200px;
+    height: 133px;
+    overflow: hidden;
+    background-color: #000;
+    margin: 1em auto;
+}
+
+.artclList .thumbLi .thumbnail img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: 1px solid #d1d1d1;
+    box-sizing: border-box;
+    max-width: 100%;
+    vertical-align: top;
+}
+
+.artclList .artclInfo {
+    text-align: center;
+}
+
+.artclList .artclInfo .artclTitle {
+    color: #333;
+    font-size: 15px;
+    display: block;
+    line-height: 1.5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+}
+
+.artclList .artclInfo dl {
+    text-align: center;
+    display: inline-block;
+    zoom: 1;
+    color: #333;
+}
+
+.artclList .artclInfo dl dd {
+    color: #999;
+    font-size: 14px;
+    display: inline-block;
+    zoom: 1;
+}
+
+.artclList .artclInfo ._artclWriter dd::after {
+    content: " / ";
+    color: #bbb;
+}
+
+.artclList:after {
+    content: "";
+    display: block;
+    clear: both;
+}

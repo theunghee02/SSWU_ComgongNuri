@@ -19,6 +19,35 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <!-- main.css -->
     <link rel="stylesheet" href="../css/education_contest.css">
+
+    <script>
+        function helloWorld(){
+            let date = new Date().toLocaleString();
+            let notification;
+            let notificationPermission = Notification.permission;
+            if (notificationPermission === "granted") {
+                //Notification을 이미 허용한 사람들에게 보여주는 알람창
+                notification = new Notification(`새로운 교육/공모전이 있습니다.`, {
+                    body: `재방문일시: ${date}`,
+                    icon: 'hello.png',
+                });
+            } else if (notificationPermission !== 'denied') {
+                //Notification을 거부했을 경우 재 허용 창 띄우기
+                Notification.requestPermission(function (permission) {
+                    if (permission === "granted") {
+                        notification = new Notification(`새로운 교육/공모전이 있습니다.`, {
+                            body: `첫방문일시: ${date}`,
+                            icon: 'hello.png',
+                        });
+                    }else {
+                        alert("알림 허용이 거부되었습니다.")
+                    }
+                });
+            }
+        }
+    
+        setInterval(function () {helloWorld()}, 60000); //1000마다 1초
+    </script>
 </head>
 <body>
     <header id = "header"></header>

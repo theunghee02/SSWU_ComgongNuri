@@ -1,0 +1,394 @@
+header {
+    height: 330px;
+    width: 100%;
+}
+
+a {
+    color: #3b3c40;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+li {
+    float: left;
+}
+
+header .fnctWrap {
+    width: 100%;
+    height: 330px;
+    background-image: url(https://www.sungshin.ac.kr/sites/ce/masterSkin/ce_sub/images/common/img_visual_1.jpg);
+}
+
+/* 해더: 탑 */
+header .fnctWrap .top {
+    width: 100%;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.inner {
+    width: 80%;
+    float: left;
+    margin: 0 160px;
+}
+
+.material-symbols-outlined {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+header .fnctWrap .btn_direct {
+    width: 335px;
+    height: 40px;
+    display: inline;
+    line-height: 40px;
+    font-size: 14px;
+    text-align: center;
+    padding:20px;
+}
+
+header .top_link {
+    border-right: 1px solid #d4d4d4;
+    color: #fff;
+}
+
+header .fnctWrap #ico_arrow{
+    border-left: 1px solid #d4d4d4;
+    margin: auto;
+}
+
+header .fnctWrap .globalUI {
+    float: right;
+    display: inline;
+    line-height: 40px;
+    font-size: 14px;
+    text-align: center;
+    border-right: 1px solid #d4d4d4;
+
+
+    color: #fff;
+}
+
+/* 헤더: 배너 */
+header .fnctWrap .header_bg {
+    height: 90px;
+    width: 100%;
+    background-color: white;
+}
+
+header .gnb_bg {
+    width: 100%;
+    height: 90px;
+}
+
+header .inner .logo {
+    width: 300px;
+    padding: 22px 0;
+    float: left;
+    
+}
+
+header .header_bg .gnb_bg .header_menu {
+    height: 90px;
+    float: right;
+}
+
+header .header_bg .gnb_bg .header_bg .menuUItop {
+    width: 100%;
+}
+
+.menuTop_div {
+    width: 900px;
+    height: 90px;
+}
+
+.menuTop_ul{
+    height: 90px;
+    text-align: center;
+}
+
+.menuTop_list{
+    width: 20%;
+    height: 30px;
+
+    /* display: flex; */
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* margin: auto;*/
+    /* padding: auto 0; */
+    display:inline-block;
+    /* padding: 37px 0; */
+    padding-top: 37px;
+    padding-bottom: 23px;
+}
+
+/* 해더: 페이지 이름 */
+header .fnctWrap .page_name {
+    width: 100%;
+    height: 200px;
+    font-size: 50px;
+    color: #fff;
+    display : flex;
+    justify-content: center;
+    align-items : center;
+}
+
+button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: auto;
+    border: none;
+  }
+
+  /* 내용 */
+.subContainer .navigator_bar {
+    width: 100%;
+    height: 50px;
+    
+}
+
+.subContainer .contents_area{
+    display:flex;
+    width: 100%;
+    height: auto;
+    padding: 60px 0;
+}
+
+.subContainer .contents_area .left_area{
+    width: 230px;
+    height: 200px;
+    float: left;
+}
+
+.subContainer .contents_area #contents{
+    width: 900px;
+    height: auto;
+    float: right;
+}
+
+.subContainer .contents_area #contents .title_wrap {
+    width: 100%;
+    height: 45px;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+/* 인사말 */
+.subContainer .contents_area .text_bg {
+    margin-bottom: 40px;
+    font-size: 24px;
+    color: #333;
+
+    display:flex;
+    text-align: center;
+    justify-content: center;
+
+    position: relative;
+    line-height: 2rem;
+}
+
+.subContainer .contents_area .text_bg .welcome {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate( -50%, -50% );
+}
+
+.desc {
+    margin-top: 30px;
+    line-height: 1.5rem;
+}
+
+.text_captain {
+    float: right;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 50px;
+    font-family: 'noto-medium';
+    line-height: 26px;
+}
+
+#footer {
+    width:100%;
+    height: 160px;
+    background-color: #3b3c40;
+}
+
+/* 교수소개 */
+.professor_info{
+    width: 100%;
+    height: 410px;
+    margin-bottom: 20px;
+    /* background-color: antiquewhite; */
+}
+
+.professor_info .info_table_area{
+    float: right;
+    width: 700px;
+    height: 378px;
+    right: 0%;
+}
+
+.professor_info .professor_pic_area {
+    float: left;
+    width: 160px;
+    height: 300px;
+}
+
+.professor_info .professor_pic_area .btn_more{
+    width: 160px;
+    height: 44px;
+    margin-top: 20px;
+    padding: 0px;
+    color: #666;
+    cursor: pointer;
+    border: 3px solid #60609f;
+    border-radius: 10px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.professor_table1 {
+    width: 100%;
+    height: 100%;
+    border-top: solid 3px #60609f;
+    
+    border-collapse: collapse;
+    background-color: #f6f6f7;
+}
+
+th {
+    padding: 5px;
+    border: solid 1px #dddddf;
+    vertical-align: middle;
+}
+
+.professor_table1 .txt_1 {
+    background-color: white;
+    text-align: left;
+}
+
+/* 출강교수 */
+.professor_info2{
+    width: 100%;
+    height: 230px;
+    margin-bottom: 20px;
+}
+
+.professor_info2 .info_table_area2 {
+    width: 100%;
+    height: 200px;
+}
+
+/* 학과소개*/
+/* height 직접 조절해야 합니다.*/
+/* */
+#content_cover {
+    width: 900px;
+    height: 600px;
+    float: right;
+
+    
+}
+
+.contents:first-child {
+    width: 900px;
+    height: 280px;
+
+   
+}
+
+.contents:nth-child(2) {
+    width: 900px;
+    height: 170px; /*auto*/
+    margin-top: 30px;
+
+    
+}
+
+.contents:nth-child(3) {
+    width: 900px;
+    height: 100px; /*auto*/
+    margin-top: 30px;
+
+    
+}
+
+.fdot {
+    width: 30px;
+    height: 280px; /*auto*/
+    float: left;
+
+    
+}
+
+.ndot {
+    width: 30px;
+    height: 100px; /*auto*/
+    float: left;
+
+    
+}
+
+.desc {
+    margin-top: 20px;
+
+    font-size: 16px;
+    color: #333;
+    line-height: 24px;
+}
+
+.dot {
+    width: 9px;
+    height: 9px;
+    margin: 5px;
+    border:4px solid #60609f;
+    border-radius: 50%;
+    float: left;
+    background-color: white;
+}
+
+.contents dt {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    color:#333;
+}
+
+.dot_list {
+    width: 15px;
+    height: 125px;
+    float: left;
+
+    background-color:aliceblue;
+}
+
+.cnt_list {
+    padding-left: 10px;
+    position: relative;
+    font-size: 16px;
+    color: #333;
+    line-height: 18px;
+}
+
+.cnt_list li { margin-top: 15px;}
+
+/* 학과연혁 */
+.history_box{
+    width: 100%;
+    height: 640px;
+    margin-bottom: 20px;
+    background-color: antiquewhite;
+}

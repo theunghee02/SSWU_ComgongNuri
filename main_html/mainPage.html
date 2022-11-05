@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <!--head 부분은 그냥 복사한 것입니다.-->
+    <!-- -->
     <!-- 문자 인코딩 설정 -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <!-- main.css -->
     <!--<link rel="stylesheet" href="./main.css">-->
-    <link rel="stylesheet" href="mainp.css">
+    <link rel="stylesheet" href="../css/mainPage.css">
 </head>
 <body>
     <header id = "header">
@@ -33,47 +33,21 @@
     </header>
     <section id = "mainContainer">
         <article>
-            <div id="imgSldVisual"> pic
-                <div id="bxWrapper">
-                    <div id="bxViewport">
-                        <ul id="imgSld">
-                            <li style="float:none; list-style: none; width: 1519px; display: none;"> <!--전환-->
-                                <div class="inner">
-                                    <img src="https://www.sungshin.ac.kr/sites/ce/atchmnfl_mngr/imageSlide/1308/temp_1517966088039100.jpg" alt="비쥬얼 이미지1">
-                                </div>
-                            </li>
-                            <li style="float:none; list-style: none; width: 1519px; display: none; position: absolute; opacity: 0;"> <!--전환-->
-                                <div class="inner">
-                                    <img src="https://www.sungshin.ac.kr/sites/ce/atchmnfl_mngr/imageSlide/1308/temp_1517966098008100.jpg" alt="비쥬얼 이미지2">
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div id="bxControl">
-                        <div id="bxPager">
-                            <div class="bxPager_item">
-                                <a href data-slide-index="0"> 1</a> <!--전환-->
-                            </div>
-                            <div class="bxPager_item">
-                                <a href data-slide-index="1"> 2</a> <!--전환-->
-                            </div>
-                        </div>
-                        <div id="bxContl_outo">
-                            <div class="bxContl_item">
-                                <a id="bx-start active" href> start</a>
-                            </div>
-                            <div class="bxContl_item">
-                                <a id="bx-stop" href> stop</a>
-                            </div>
-                        </div>
-                    </div>
+            <div id="imgSldVisual">
+                <div class="imgVisual">
+                <img src="https://www.sungshin.ac.kr/sites/ce/atchmnfl_mngr/imageSlide/1308/temp_1517966088039100.jpg" alt="비쥬얼 이미지1">
+
+                <!-- 2nd img
+                <img src="https://www.sungshin.ac.kr/sites/ce/atchmnfl_mngr/imageSlide/1308/temp_1517966098008100.jpg" alt="비쥬얼 이미지2">
+                -->
+                <div class="btnBx"> </div>
+
                 </div>
             </div>
-            <!--코딩 참고-->
+            <!--홈페이지 참고-->
             <div id="text_wrap1">
             <div id="text_wrap2">
             <div id="visual_text">
-                <!--글자 css 하기-->
                 <p> 
                     <h2> 컴퓨터공학과 
                         <br>
@@ -97,13 +71,13 @@
             </div>
             </div>
             </div>
-            <div id="multipleDiv"> rest 
+            <div id="multipleDiv"> / 
                 <div id="multipleContentDiv">
                     <div id="info">
                         <div id="info_text"> 
-                            <ul> <!--형태 잡기-->
+                            <ul> 
                                 <li> 
-                                    <input type="button" value="공지사항"> <!--왜..?-->
+                                    <input type="button" value="공지사항"> 
                                 </li>
                                 <ul id="infoTextDetail"> <!--aka itd-->
                                     <li class="itd">
@@ -183,7 +157,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="menu2"> <!--menu2 , fnctWrap 왜 필요한가-->
+                    <div id="menu2"> 
                         <div class="fnctWrap">
                             <div class="quick_link_area">
                                 <ul>
