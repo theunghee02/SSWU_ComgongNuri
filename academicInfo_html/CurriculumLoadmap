@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>교육과정 로드맵</title>
+</head>
+<body>
+    <dl class="bullet_area dot_round">
+    <span>교육과정 로드맵</span>
+    <dd>
+        <table class="tab01">
+            <colgroup>
+            <col style="width:auto;">
+            </colgroup>
+            <tbody>
+                <tr>
+                    <td style="width: 100%;">
+                    <p><strong>컴퓨터공학과 전공교육과정 로드맵</strong></p></td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <table class="tab01" style="width: 100%; background-image: none; background-repeat: repeat; background-position: 0% 0%;">
+         <caption>
+            진로트랙별 교육과정 로드맵
+         </caption>
+        <colgroup>
+        <col style="width: 8%;">
+        <col style="width: auto;"> 
+        </colgroup>
+        <thead>
+            <tr>
+                <th class="tab02" rowspan="2" style="width: 8%; height: 49px;">
+                    <p><span style="font-size: 14px;">진로<br> 분야</span></p></th>
+                <th class="tab02" rowspan="2" style="width: 8%; height: 49px;">
+                    <p><span style="font-size: 14px;">전공능력</span></p></th>
+                <th class="tab02" colspan="4" style="width: 35%; height: 20px;">
+                    <p><span style="font-size: 14px;">학년별 추천 과목명</span></p></th>
+                <th class="tab02" rowspan="2" style="width: 12%; height: 49px;">
+                    <p><span style="font-size: 14px;">타 전공/<br> 교양 교과목<br> 추천</span></p></th>
+                <th class="tab02" rowspan="2" style="width: 12.6%; height: 49px;">
+                    <p><span style="font-size: 14px;">비교과<br> 교육과정<br> 추천</span></p></th>
+                <th class="tab02" rowspan="2" style="width: 11%; height: 49px;">
+                    <p><span style="font-size: 14px;">6대<br> 핵심역량</span></p></th>
+                <th class="tab02" rowspan="2" style="width: 12.4%; height: 49px;">
+                    <p><span style="font-size: 14px;">관련 직업</span></p></th>
+            </tr>
+            <tr>
+                <th class="tab02" style="width: 9%; height: 25px;">
+                    <p><span style="font-size: 14px;">1학년</span></p></th>
+                <th class="tab02" style="width: 8.5%; height: 25px;">
+                    <p><span style="font-size: 14px;">2학년</span></p></th>
+                <th class="tab02" style="width: 6.9%; height: 25px;">
+                    <p><span style="font-size: 14px;">3학년</span></p></th>
+                <th class="tab02" style="width: 9.3%; height: 25px;">
+                    <p><span style="font-size: 14px;">4학년</span></p></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th class="tab02" style="width: 7.7%; height: 353px;" scope="row">
+                    <p><span style="font-size: 14px;">소프트<br> 웨어<br> 아키텍트<br> 트랙</span></p></th>
+                <th class="tab02" style="width: 7.7%; height: 353px;" scope="col">
+                    <p><span style="font-size: 14px;">소프트<br> 웨어<br> 아키텍트<br> 및<br> 프로젝트<br> 관리<br> 전문성</span></p></th>
+                <th class="tb_1" style="width: 9.1%; height: 353px;" scope="col">
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">파이썬</span></p>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">프로그래밍</span></p>
+                    <span style="font-size: 10pt;"> </span> <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;"><br></span></p>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">C++</span></p>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">프로그래밍</span></p></th>
+                <th class="tb_1" style="width: 8.5%; height: 353px;" scope="col">
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">고급C++</span></p>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">프로그래밍</span></p>
+                    <span style="font-size: 10pt;"> </span> <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;"><br></span></p>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">자바</span></p>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">프로그래밍</span></p>
+                    <span style="font-size: 10pt;"> </span> <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;"><br></span></p>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">고급자바</span></p>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">프로그래밍</span></p>
+                    <span style="font-size: 10pt;"> </span> <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;"><br></span></p>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">자료구조</span></p>
+                    <span style="font-size: 10pt;"> </span> <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;"><br></span></p>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">고급</span></p>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">자료구조</span></p>
+                    <span style="font-size: 10pt;"> </span> <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;"><br></span></p></th>
+                <th class="tb_1" style="width: 7%; height: 353px;" scope="col"> <p style="text-align: center; line-height: 100%;">
+                    <span style="font-size: 10pt;">소프트웨어분석및설계</span></p> <p style="text-align: center; line-height: 100%;">
+                    <span style="font-size: 10pt;"><br></span></p> <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;"></span>
+                    <span style="font-size: 10pt;">소프트웨어공학</span></p><span style="font-size: 10pt;"> </span> <p style="text-align: center; line-height: 100%;">
+                    <span style="font-size: 10pt;"><br></span></p> <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">서버시스템구축실습</span></p></th>
+                <th class="td_l" style="width: 9.3%; height: 353px;" scope="col"> <p style="text-align: center; line-height: 100%;">
+                    <span style="font-size: 10pt;">소프트웨어</span></p> <p style="text-align: center; line-height: 100%;">
+                    <span style="font-size: 10pt;">디자인패턴</span></p><span style="font-size: 10pt;">
+                    </span> <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;"><br></span></p>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">소프트웨어</span></p>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">아키텍처</span></p>
+                    <span style="font-size: 10pt;"> </span> <p style="text-align: center; line-height: 100%;">
+                    <span style="font-size: 10pt;"><br></span></p> <p style="text-align: center; line-height: 100%;">
+                    <span style="font-size: 10pt;">캡스톤</span></p> <p style="text-align: center; line-height: 100%;">
+                    <span style="font-size: 10pt;">디자인</span></p><span style="font-size: 10pt;"> </span>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;"><br></span></p>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">융합</span></p>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">캡스톤</span></p>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">디자인</span></p></th> 
+                <th class="td_l" style="width: 11.8%; height: 353px;" scope="col"> <p style="text-align: center; line-height: 100%;">
+                    <span style="font-size: 10pt;"><br></span></p></th>
+                <th class="td_l" style="width: 12.6%; height: 353px;" scope="col"> <p><span style="font-size: 10pt;">오픈소스</span></p>
+                    <p><span style="font-size: 10pt;"></span><span style="letter-spacing: 0pt; font-size: 10pt;">GIT&nbsp;</span>
+                    <span style="font-size: 10pt;">교</span><span style="font-size: 10pt;">육</span></p> <p><span style="font-size: 10pt;"></span>
+                    <span style="font-size: 10pt;">프로그램</span></p><span style="font-size: 10pt;"> </span>
+                    <p><span style="font-size: 10pt;"><br></span></p> <p><span style="font-size: 10pt;">동계</span></p>
+                    <p><span style="font-size: 10pt;"></span><span style="letter-spacing: 0pt; font-size: 10pt;">SW&nbsp;</span>
+                    <span style="font-size: 10pt;">역</span><span style="font-size: 10pt;">량</span></p> 
+                    <p><span style="font-size: 10pt;"></span><span style="font-size: 10pt;">강화</span></p> <p><span style="font-size: 10pt;">블렌디드</span></p>
+                    <p><span style="font-size: 10pt;">러닝 프로그램</span></p><span style="font-size: 10pt;"> </span> <p style="line-height: 100%; text-align: center;">
+                    <span style="font-size: 10pt;"><br></span></p> <p style="line-height: 100%; text-align: center;"><span style="font-size: 10pt;">여름방학</span></p>
+                    <p style="line-height: 100%; text-align: center;"><span style="font-size: 10pt;">코딩테스트</span></p> <p style="line-height: 100%; text-align: center;">
+                    <span style="font-size: 10pt;">취업준비</span></p> <p style="line-height: 100%; text-align: center;"><span style="font-size: 10pt;">과정</span></p>
+                    <p style="line-height: 100%; text-align: center;"><span style="font-size: 10pt;">프로그램</span></p></th>
+                <th class="td_l" style="width: 10.7%; height: 353px;" scope="col"> <p style="line-height: 100%; text-align: center;">
+                    <span style="font-size: 10pt;"><br></span></p><span style="font-size: 10pt;"> </span> <p><span style="font-size: 10pt;">지식탐구</span></p>
+                    <p><span style="font-size: 10pt;">역량</span></p></th>
+                <th class="td_l" style="width: 12.4%; height: 353px;" scope="col"> <p><span style="font-size: 10pt;">소프트웨어 엔지니어</span></p>
+                    <p><span style="font-size: 10pt;"><br></span></p><span style="font-size: 10pt;"> </span>
+                    <p><span style="font-size: 10pt;">소프트웨어 설계 전문가</span></p><span style="font-size: 10pt;"> </span>
+                    <p style="line-height: 100%; text-align: center;"><span style="font-size: 10pt;"><br></span></p> <p style="line-height: 100%; text-align: center;">
+                    <span style="font-size: 10pt;">소프트웨어 시스템</span></p> <p style="line-height: 100%; text-align: center;">
+                    <span style="font-size: 10pt;">컨</span><span style="font-size: 10pt;">설턴트</span></p></th>
+            </tr>
+            <tr>
+                <th class="td_l" style="height: 383px; width: 7.7%;" scope="row">
+                    <p><span style="font-size: 14px;">응용<br> 소프트<br> 웨어<br> 트랙</span></p> </th> 
+                <th class="td_l" style="height: 383px; width: 7.7%;">
+                    <p><span style="font-size: 14px;">응용<br> 소프트<br> 웨어<br> 및<br> 시스템<br> 소프트<br> 웨어<br> 전문성</span></p> </th> 
+                <td class="td_2" style="height: 383px; width: 9.1%;"> <p style="text-align: center; line-height: 100%;">
+                    <span style="font-size: 10pt;"><br></span></p> <p style="text-align: center; line-height: 100%;">
+                    <span style="font-size: 10pt;">파이썬</span></p> <p style="text-align: center; line-height: 100%;">
+                    <span style="font-size: 10pt;">프로그래밍</span></p><span style="font-size: 10pt;">
+                    </span> <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;"><br></span></p>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">C++</span></p>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">프로그래밍</span></p></td> 
+                <td class="td_2" style="height: 383px; width: 8.5%;"> <p style="text-align: center; line-height: 100%;">
+                    <span style="font-size: 10pt;">고급C++</span></p> <p style="text-align: center; line-height: 100%;">
+                    <span style="font-size: 10pt;">프로그래밍</span></p> <p style="text-align: center; line-height: 100%;">
+                    <span style="font-size: 10pt;"><br></span></p> <p style="text-align: center; line-height: 100%;">
+                    <span style="font-size: 10pt;"></span><span style="font-size: 10pt;">자료구조</span></p> <p style="text-align: center; line-height: 100%;">
+                    <span style="font-size: 10pt;"><br></span></p> <p style="text-align: center; line-height: 100%;">
+                    <span style="font-size: 10pt;"></span><span style="font-size: 10pt;">컴퓨터</span></p> <p style="text-align: center; line-height: 100%;">
+                    <span style="font-size: 10pt;">시스템관리</span></p> <p style="text-align: center; line-height: 100%;">
+                    <span style="font-size: 10pt;"><br></span></p> <p style="text-align: center; line-height: 100%;">
+                    <span style="font-size: 10pt;"></span><span style="font-size: 10pt;">컴퓨터구조</span></p><span style="font-size: 10pt;"> </span>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;"><br></span></p> <p style="text-align: center; line-height: 100%;">
+                    <span style="font-size: 10pt;">운영체제</span></p><span style="font-size: 10pt;"> </span> <p style="text-align: center; line-height: 100%;">
+                    <span style="font-size: 10pt;"><br></span></p> <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">컴퓨터</span></p>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">네트워크</span></p><span style="font-size: 10pt;"></span>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;"><br></span></p> <p style="text-align: center; line-height: 100%;">
+                    <span style="font-size: 10pt;">데이터</span></p> <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">베이스</span></p></td> 
+                <td class="td_2" style="height: 383px; width: 6.9%;"> <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">시스템</span></p>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">프로그래밍</span></p><span style="font-size: 10pt;"> </span>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;"><br></span></p> <p style="text-align: center; line-height: 100%;">
+                    <span style="font-size: 10pt;">모바일</span></p> <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">프로그래밍</span></p>
+                    <span style="font-size: 10pt;"> </span> <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;"><br></span></p>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">프로그래밍언어론</span></p><span style="font-size: 10pt;"> </span>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;"><br></span></p> <p style="text-align: center; line-height: 100%;"></p>
+                    <p style="line-height: 100%; text-align: center;"><span style="font-size: 10pt;">오픈소스</span></p> <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">소프트웨어</span></p></td> 
+                <td class="td_2" style="height: 383px; width: 9.3%;"> <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">컴파일러</span></p>
+                    <span style="font-size: 10pt;"> </span> <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;"><br></span></p>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">캡스톤</span></p> <p style="text-align: center; line-height: 100%;">
+                    <span style="font-size: 10pt;">디자인</span></p><span style="font-size: 10pt;"> </span> <p style="text-align: center; line-height: 100%;">
+                    <span style="font-size: 10pt;"><br></span></p> <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">융합</span></p>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">캡스톤</span></p> <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">디자인</span></p></td> 
+                <td class="td_2" style="height: 383px; width: 11.8%;"> <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">네트워크</span></p>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">보안</span><span style="font-size: 10pt;">(융보)</span></p><span style="font-size: 10pt;"> </span>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;"><br></span></p> <p style="text-align: center; line-height: 100%;">
+                    <span style="font-size: 10pt;">데이터</span></p> <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">베이스</span></p>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">보안(융보)</span></p><span style="font-size: 10pt;"> </span>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;"><br></span></p> <p style="text-align: center; line-height: 100%;">
+                    <span style="font-size: 10pt;">시스템</span></p> <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">보안(융보)</span></p></td> 
+                <td class="td_2" style="height: 383px; width: 12.6%;"> <p style="line-height: 100%; text-align: center;"><span style="font-size: 10pt;">오픈소스 </span><span style="letter-spacing: 0pt; font-size: 10pt;">GIT</span></p>
+                    <p style="line-height: 100%; text-align: center;"><span style="letter-spacing: 0pt; font-size: 10pt;"></span><span style="font-size: 10pt;">교육 프로그램</span></p><span style="font-size: 10pt;"> </span>
+                    <p class="1" style="margin-left: 0px; word-break: keep-all; line-height: 100%; text-align: center;"><span style="font-size: 10pt;"><br></span></p>
+                    <p style="line-height: 100%; text-align: center;"><span style="font-size: 10pt;">동계</span></p> <p style="line-height: 100%; text-align: center;"><span style="font-size: 10pt;"></span><span style="letter-spacing: 0pt; font-size: 10pt;">SW </span>
+                    <span style="font-size: 10pt;">역량 강화 블렌디드</span></p> <p style="line-height: 100%; text-align: center;"><span style="font-size: 10pt;">러닝 프로그램</span></p><span style="font-size: 10pt;"> </span>
+                    <p style="line-height: 100%; text-align: center;"><span style="font-size: 10pt;"><br></span></p> <p style="line-height: 100%; text-align: center;"><span style="font-size: 10pt;">여름방학</span></p>
+                    <p style="line-height: 100%; text-align: center;"><span style="font-size: 10pt;">코딩 테스트</span></p> <p style="line-height: 100%; text-align: center;"><span style="font-size: 10pt;">취업 준비</span></p>
+                    <p style="line-height: 100%; text-align: center;"><span style="font-size: 10pt;">과정&nbsp;</span></p> <p style="line-height: 100%; text-align: center;"><span style="font-size: 10pt;">프로그램</span></p></td> 
+                <td class="td_2" style="height: 383px; width: 10.7%;"> <p style="line-height: 100%; text-align: center;"><span style="font-size: 10pt;"><br></span></p><span style="font-size: 10pt;"> </span>
+                    <p style="line-height: 100%; text-align: center;"><span style="font-size: 10pt;">지식탐구</span></p> <p style="line-height: 100%; text-align: center;"><span style="font-size: 10pt;">역량</span></p></td> 
+                <td class="td_2" style="height: 383px; width: 12.4%;"> <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">시스템</span></p>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">엔지니어</span></p><span style="font-size: 10pt;"> </span>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;"><br></span></p> <p style="text-align: center; line-height: 100%;">
+                    <span style="font-size: 10pt;">응용</span></p> <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">소프트웨어 개발자</span></p>
+                    <span style="font-size: 10pt;"> </span> <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;"><br></span></p>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">시스템</span></p> <p style="text-align: center; line-height: 100%;">
+                    <span style="font-size: 10pt;">소프트웨어</span></p> <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">개발자</span></p></td>
+            </tr>
+            <tr>
+                <th class="tab02" style="width: 7.7%; height: 291px;" scope="row"> <p><span style="font-size: 14px;">데이터<br> 베이스<br> 및<br> 인공지능<br> 트랙</span></p> </th> 
+                <th class="tab02" style="width: 7.7%; height: 291px;"> <p><span style="font-size: 14px;">데이터<br> 베이스<br> 및<br> 인공지능<br> 전문성</span></p> </th> 
+                <td class="td_2" style="width: 9.1%; height: 291px;"> <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">파이썬</span></p>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">프로그래밍</span></p><span style="font-size: 10pt;"> </span>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;"><br></span></p>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">C++&nbsp;</span></p>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">프로그래밍</span></p>
+                    <span style="font-size: 10pt;"> </span> <p style="text-align: center; line-height: 100%;">
+                    <span style="font-size: 10pt;"><br></span></p> <p style="text-align: center; line-height: 100%;">
+                    <span style="font-size: 10pt;">기초통계학</span></p><span style="font-size: 10pt;"> </span>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;"><br></span></p>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">미적분과</span></p>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">벡터해석</span></p>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">기초</span></p>
+                    <span style="font-size: 10pt;"> </span> <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;"><br></span></p>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">이산수학</span></p></td> 
+                <td class="td_2" style="width: 8.5%; height: 291px;"> <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">고급C++</span></p>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">프로그래밍</span></p> <p style="text-align: center; line-height: 100%;">
+                    <span style="font-size: 10pt;"><br></span></p> <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">자료구조</span></p>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;"><br></span></p><span style="font-size: 10pt;"> </span>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">고급</span></p> <p style="text-align: center; line-height: 100%;">
+                    <span style="font-size: 10pt;">자료구조</span></p> <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;"><br></span></p>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">데이터</span></p> <p style="text-align: center; line-height: 100%;">
+                    <span style="font-size: 10pt;">베이스</span></p> <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;"><br></span></p>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;"></span><span style="font-size: 10pt;">인공지능</span></p></td> 
+                <td class="td_2" style="width: 6.9%; height: 291px;"> <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">알고리즘</span></p>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;"><br></span></p> <p style="text-align: center; line-height: 100%;">
+                    <span style="font-size: 10pt;"></span><span style="font-size: 10pt;">기계학습</span></p> <p style="text-align: center; line-height: 100%;">
+                    <span style="font-size: 10pt;"><br></span></p> <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;"></span>
+                    <span style="font-size: 10pt;">정보검색</span></p><span style="font-size: 10pt;"> </span> <p style="text-align: center; line-height: 100%;">
+                    <span style="font-size: 10pt;"><br></span></p> <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">오픈소스</span></p>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">소프트웨어</span></p></td> 
+                <td class="td_2" style="width: 9.3%; height: 291px;"> <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">캡스톤</span></p> 
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;"></span><span style="font-size: 10pt;">디자인</span></p>
+                    <span style="font-size: 10pt;"> </span> <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;"><br></span></p>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">융합</span></p> <p style="text-align: center; line-height: 100%;"></p>
+                    <span style="font-size: 10pt;">캡스톤</span></p> <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;"></span><span style="font-size: 10pt;">디자인</span></p></td> 
+                <td class="td_2" style="width: 11.8%; height: 291px;"> <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;">자연어처리</span></p>
+                    <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;"></span><span style="letter-spacing: 0pt; font-size: 10pt;">(</span>
+                    <span style="font-size: 10pt;">정시</span><span style="letter-spacing: 0pt; font-size: 10pt;">)</span></p> <p style="text-align: center; line-height: 100%;">
+                    <span style="font-size: 10pt;"><br></span></p> <p style="text-align: center; line-height: 100%;"><span style="letter-spacing: 0pt; font-size: 10pt;"></span>
+                    <span style="font-size: 10pt;">머신비전</span></p> <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;"></span>
+                    <span style="letter-spacing: 0pt; font-size: 10pt;">(</span><span style="font-size: 10pt;">정시</span><span style="letter-spacing: 0pt; font-size: 10pt;">)</span></p>
+                    <span style="font-size: 10pt;"> </span> <p class="0" style="line-height: 100%; word-break: keep-all; text-align: center;"><span style="font-size: 10pt;"><br></span></p>
+                    <p style="line-height: 100%; text-align: center;">컴퓨터</p> <p style="line-height: 100%; text-align: center;"><span style="font-size: 10pt;">그래픽스</span>
+                    <span style="letter-spacing: 0pt; font-size: 10pt;">(</span><span style="font-size: 10pt;">정시</span><span style="letter-spacing: 0pt; font-size: 10pt;">)</span></p></td> 
+                <td class="td_2" style="width: 12.6%; height: 291px;"> <p style="text-align: center; line-height: 100%;"><span style="font-size: 10pt;"><br></span></p></td> 
+                <td class="td_2" style="width: 10.7%; height: 291px;"> <p style="line-height: 100%; text-align: center;"><span style="font-size: 10pt;"><br></span></p><span style="font-size: 10pt;"> </span>
+                    <p style="line-height: 100%; text-align: center;"><span style="font-size: 10pt;">지식탐구</span></p> <p style="line-height: 100%; text-align: center;"><span style="font-size: 10pt;">역량</span></p></td> 
+                <td class="td_2" style="width: 12.4%; height: 291px;"> <p style="line-height: 100%; text-align: center;"><span style="font-size: 10pt;"><br></span></p>
+                    <span style="font-size: 10pt;"> </span> <p style="line-height: 100%; text-align: center;"><span style="font-size: 10pt;">데이터 엔지니어</span></p></td>
+            </tr>
+        </tbody>
+        </table>
+    </dd>
+    </dl>
+</body>
+</html>
