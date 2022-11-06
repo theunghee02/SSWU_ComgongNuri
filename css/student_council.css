@@ -115,6 +115,8 @@ a {
 .bullet_area.dot_round {
     padding-left: 30px;
     position: relative;
+    line-height: 20pt;
+    font-size: 12pt;
 }
 
 .bullet_area.dot_round::before {
@@ -143,5 +145,11 @@ a {
 
 dt {
     display: block;
+}
+
+.organization_img {
+    width: 700px;
+    height: 389px;
+    vertical-align: baseline;
 }
 
