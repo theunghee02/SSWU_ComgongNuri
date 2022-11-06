@@ -16,7 +16,7 @@
     padding: 35px 0 35px;
 }
 
-div {
+#footer div {
     font-family: 'noto-light', dotum, Arial, sans-serif;
     box-sizing: border-box;
     display: block;
@@ -36,7 +36,7 @@ div {
 
 /* 로고 */
 
-img {
+#footer img {
     vertical-align: top;
 }
 
@@ -76,7 +76,7 @@ img {
     right: 0;
 }
 
-input, button {
+#footer input, button {
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
@@ -157,13 +157,13 @@ address {
     line-height: 22px;
 }
 
-li {
+#footer li {
     list-style: none;
     width: auto;
     float: right;
 }
 
-a {
+#footer a {
     margin: 0;
     padding: 0;
     border: 0;
@@ -174,7 +174,7 @@ a {
     font-family: 'Noto Sans KR', sans-serif;
 }
 
-a:hover {
+#footer a:hover {
     color: #cbcbf9 !important;
 }
 
@@ -188,7 +188,7 @@ a:hover {
     float: right;
 }
 
-ul {
+#footer ul {
     display: block;
     list-style-type: disc;
     margin-block-start: 1em;

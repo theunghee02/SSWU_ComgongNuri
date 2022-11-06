@@ -11,81 +11,10 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <!-- index.html 페이지에 적용할 스타일시트로 main.css로 연결합니다 -->
     <link rel="stylesheet" href="../css/introduction.css" />
-    
-
+    <script src="../js/include.js"></script>
 </head>
 <body>
-    <header id="header">
-        <div class="fnctWrap">
-            <div class="top">
-                <div class="inner">
-                    <ul class="btn_direct">
-                        <li>
-                            <a href="https://www.sungshin.ac.kr/sites/main_kor/main.jsp" target="_blank" id="ico_arrow" class="top_link">
-                                <span>성신여자대학교 바로가기 →</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://portal.sungshin.ac.kr/" target="_blank" class="top_link">
-                                <span>성신포탈 →</span>
-                            </a>
-                        </li>
-                    </ul>
-                    <ul class="globalUI">
-                        <!-- <li>
-                            <button>ko</button>
-                        </li>
-                        <li>
-                            <button>en</button>
-                        </li> -->
-                        <li>
-                            <a href="https://portal.sungshin.ac.kr/sso/login.jsp?param=http://www.sungshin.ac.kr/sso/CreateRequest.jsp?RelayState=http://www.sungshin.ac.kr/subLogin/ce/ssoLogin.do" target="_blank" class="login">
-                                <!-- <div class="material-symbols-outlined">
-                                    login
-                                </div> -->
-                                <span style="color:white">로그인</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="header_bg">
-                <div class="gnb_bg">
-                    <div class="inner">
-                        <div class="logo">
-                            <!-- 메인 링크 달기 -->
-                            <a href="">
-                                <img class="logo_pic" src="https://www.sungshin.ac.kr/sites/ce/images/common/logo.png">
-                            </a>
-                        </div>
-                        <div class="header_menu">
-                            <nav id="menuUItop" class="menuUItop">
-                                <div class="menuTop_div">
-                                    <ul class="menuTop_ul">
-                                        <li class="menuTop_list" id="top_intro">
-                                            <a href="" id="menuTop_li1" target="_self">학사정보</a></li>
-                                        <li class="menuTop_list" id="top_info">
-                                            <a href="" id="menuTop_li1" target="_self">학사정보</a>
-                                        </li>
-                                        <li class="menuTop_list" id="top_notice">
-                                            <a href="" id="menuTop_li1" target="_self">공지사항</a></li>
-                                        <li class="menuTop_list" id="top_act">
-                                            <a href="" id="menuTop_li1" target="_self">학생활동</a></li>
-                                        <li class="menuTop_list" id="top_data">
-                                            <a href="" id="menuTop_li1" target="_self">자료실</a></li>
-                                    </ul>
-                                </div>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="page_name">
-                <!-- 페이지에 따라 수정하기 -->
-                <p>학과소개</p>
-            </div>
-        </div>
-    </header>
+    <header include-html="./header.html"></header>
     <section class="subContainer">
         <div class="navigator_bar"></div>
         <div class="contents_area">
@@ -234,6 +163,7 @@
             </div>
         </div>
     </section>
-    <footer id="footer"></footer>
+    <footer include-html="./main_footer.html"></footer>
 </body>
+<script>includeHTML();</script>
 </html>

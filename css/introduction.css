@@ -283,7 +283,7 @@ th {
 .departmentIntro_paragraph {
     width: 900px;
     height: 540px;
-    background-color:darkcyan;
+    /* background-color:darkcyan; */
 }
 
 .departmentIntro_paragraph .departmentIntro_container_text {
@@ -313,4 +313,10 @@ dt {
     height: 640px;
     margin-bottom: 20px;
     background-color: antiquewhite;
+}
+
+#footer {
+    width:100%;
+    height: 160px;
+    background-color: #3b3c40;
 }
