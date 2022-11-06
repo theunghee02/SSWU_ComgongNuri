@@ -147,7 +147,6 @@ button {
 .subContainer .navigator_bar {
     width: 100%;
     height: 50px;
-    
 }
 
 .subContainer .contents_area{
@@ -283,7 +282,6 @@ th {
 .departmentIntro_paragraph {
     width: 900px;
     height: 540px;
-    /* background-color:darkcyan; */
 }
 
 .departmentIntro_paragraph .departmentIntro_container_text {
