@@ -223,12 +223,19 @@ img {
 /* 슬라이더 */
 #slider {
     position: relative;
-    transition: left 0.15s;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
 }
 
-#slider .slide {
-    transition: left 0.15s;
-}
+/* #slider .slide {
+    transition: 0.3s;
+} */
+
+/* #slider .slide1 {
+    display: none;
+    visibility:hidden;
+} */
 
 #slider .slideContent {
     position: absolute;
