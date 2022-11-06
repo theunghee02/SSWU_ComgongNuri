@@ -1,4 +1,4 @@
-header {
+/* header {
     height: 330px;
     width: 100%;
 }
@@ -21,7 +21,7 @@ header .fnctWrap {
     background-image: url(https://www.sungshin.ac.kr/sites/ce/masterSkin/ce_sub/images/common/img_visual_1.jpg);
 }
 
-/* 해더: 탑 */
+/* 해더: 탑 
 header .fnctWrap .top {
     width: 100%;
     height: 40px;
@@ -72,7 +72,7 @@ header .fnctWrap .globalUI {
     color: #fff;
 }
 
-/* 헤더: 배너 */
+/* 헤더: 배너 
 header .fnctWrap .header_bg {
     height: 90px;
     width: 100%;
@@ -113,19 +113,12 @@ header .header_bg .gnb_bg .header_bg .menuUItop {
 .menuTop_list{
     width: 20%;
     height: 30px;
-
-    /* display: flex; */
-    /* text-align: center; */
-    /* justify-content: center; */
-    /* margin: auto;*/
-    /* padding: auto 0; */
     display:inline-block;
-    /* padding: 37px 0; */
     padding-top: 37px;
     padding-bottom: 23px;
 }
 
-/* 해더: 페이지 이름 */
+/* 해더: 페이지 이름 
 header .fnctWrap .page_name {
     width: 100%;
     height: 200px;
@@ -148,7 +141,7 @@ button {
     display: inline-block;
     width: auto;
     border: none;
-  }
+  } */
 
   /* 내용 */
 .subContainer .navigator_bar {
@@ -218,11 +211,7 @@ button {
     line-height: 26px;
 }
 
-#footer {
-    width:100%;
-    height: 160px;
-    background-color: #3b3c40;
-}
+
 
 /* 교수소개 */
 .professor_info{
@@ -294,7 +283,7 @@ th {
 .departmentIntro_paragraph {
     width: 900px;
     height: 540px;
-    background-color:darkcyan;
+    /* background-color:darkcyan; */
 }
 
 .departmentIntro_paragraph .departmentIntro_container_text {
@@ -324,4 +313,10 @@ dt {
     height: 640px;
     margin-bottom: 20px;
     background-color: antiquewhite;
+}
+
+#footer {
+    width:100%;
+    height: 160px;
+    background-color: #3b3c40;
 }
